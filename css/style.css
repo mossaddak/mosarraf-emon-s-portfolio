@@ -535,28 +535,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-icon {
-  float: left;
-  background: #5c5470
-;
+  background: #5c5470;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #5c5470
-;
+  border: 1px solid #5c5470;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
 }
-
-#services .service-icon i {
+/* 
+#services .service-icon{
   color: #fff;
   font-size: 24px;
-}
-
-#services .service-item:hover .service-icon {
+} */
+#services .service-item:hover .service-icon{
+  color: #5c5470;
   background: #fff;
-}
-
-#services .service-item:hover .service-icon i {
-  color: #5c5470
-;
+  cursor: pointer;
 }
 
 #services .service-title {
